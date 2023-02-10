@@ -30,7 +30,7 @@ main section {
 }
 body {
     background-color: #e6e4e4; 
-    font-family: "Akshar";
+    font-family: Akshar, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -70,7 +70,7 @@ footer {
 }
 .home-title{
     color:rgb(0, 0, 0);
-    font-family: "Roboto";
+    font-family: Roboto, Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -79,7 +79,7 @@ color: black ;
 }
 .msg h2 {
 color:rgb(36, 35, 35) ;
-font-family: "Akshar";
+font-family: Akshar, Arial, sans-serif;
 }
 .msg p {
     color:rgb(36, 35, 35) ;
