@@ -8,7 +8,7 @@
 }
 nav a {
     text-align: center;
-    color: rgb(240, 248, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -214,6 +214,8 @@ footer {
     grid-row: 2/3;
 }
 
+
+
 @media screen and (max-width: 900px) {
     header{
         background-color: #ff5900;
@@ -259,4 +261,6 @@ footer {
         margin-top: 25px;
     }
 }
+
+
            
