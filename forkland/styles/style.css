@@ -87,10 +87,51 @@ article,aside,dialog,figcaption,footer,header, hgroup, main, nav, section{
     text-align: center;
 }
 
-#hero-msg {
-    grid-column: 3/7;
+
+#hero{
+    display: grid;
+    
+}
+
+
+#hero-msg1 h1{
+    text-align: center;
+}
+
+.home-grid1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 20% 40%;
+    padding: 0px 50px;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.maps{
+    grid-row: 1/4;
+    margin:3%;
+    height: auto;
+    width: auto;
+    border: 3px solid #000000;
+}
+
+.address{
+    display: grid;
+    grid-template-rows: 33% 34% 33%;
+    grid-row: 1/4;
+    height: 250px;
+    width: auto;
+    margin:3%;
+    border: 3px solid #000000;
+}
+.address h1{
     grid-row: 1/2;
-    margin-top: 100px;
+    text-align: center;
+}
+.address h2{
+    grid-row: 2/3;
+    text-align: center;
 }
 
 body{
