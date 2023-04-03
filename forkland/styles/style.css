@@ -125,6 +125,7 @@ article,aside,dialog,figcaption,footer,header, hgroup, main, nav, section{
     margin:3%;
     border: 3px solid #000000;
 }
+
 .address h1{
     grid-row: 1/2;
     text-align: center;
