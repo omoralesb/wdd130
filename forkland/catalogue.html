@@ -5,106 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <title>Forkland</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div id="content">
-    <header>
-       <a id="logo_link" href="index.html" >
-            <img class="logo" src="images/forkliftlogo.png" alt="ForklandLogo">
-       </a>
+    <header> 
        <nav>
-            <a href="index.html" >Home</a>
-            <a href="about_us.html" >About Us</a>
+        
+        <ul>
+            <li > <a id="logo_link" href="index.html" >
+                <img class="logo" src="images/forkliftlogo.png" alt="ForklandLogo"> </a></li>
+           
+            <li><a href="index.html" >Home</a>
+            <li><a href="about_us.html" >About Us</a></li>
+            <li><a href="catalogue.html" >Catalogue</a></li>
+            <li><a href="Location.html" >Location</a></li>
             
-            <a href="catalogue.html" >Catalogue</a>
-            <a href="Location.html" >Location</a>
+            
+            
+            
+        </ul>
+            
 
-            <input type="search" name="busqueda" size="4" maxlength="4">
 
-            <input type="submit" value="Buscar">
        </nav>
     </header>
     <div id="hero">
         
         <section id="hero-msg">
-            <h1 class="home-title">More than a forklift</h1>
+            <h1 class="home-title">OUR CATALOGUE</h1>
 
             
         </section>
     </div>
     <main class="home-grid">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">available stock</a>
-              <a class="dropdown-item" href="#">higher to lower price</a>
-              <a class="dropdown-item" href="#">lower to higher price</a>
-            </div>
-        </div>
-        <input type="search" name="busqueda" size="4" maxlength="4">
+       
+    <section class="searcher">
+        <select name="cars" id="cars">
+            <option value="volvo">available stock</option>
+            <option value="mercedes">higher to lower price</option>
+            <option value="audi">lower to higher price</option>
+        </select>
+    </section>
 
-        <input type="submit" value="Buscar">
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo1.png" alt="merch1">
-            
-            
-        </div>
-            <div class="rivers-card">
-            <img class="card-img" src="images/catalogo2.jpg" alt="merch2">
-            
-            
+
+    <section class="catalogue">
+            <div class="container_item">
+                <div class="item1">
+                    <img class="cata" src="images/catalogo1.png" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                <div class="item2">
+                    <img class="cata" src="images/catalogo2.jpg" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                <div class="item3">
+                    <img class="cata" src="images/catalogo3.png" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                <div class="item4">
+                    <img class="cata" src="images/catalogo4.jpg" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                
+                <div class="item5">
+                    <img class="cata" src="images/catalogo5.jpg" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                <div class="item6">
+                    <img class="cata" src="images/catalogo6.jpg" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                <div class="item7">
+                    <img class="cata" src="images/catalogo7.jpg" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                <div class="item8">
+                    <img class="cata" src="images/catalogo8.jpg" alt="item1" style="width:100%">
+                    <h1>Forklift CAT 10 TON</h1>
+                    <p class="title"></p>
+
+                    <p><button>Buy</button></p>
+                </div>
+                            
             </div>
-            <div class="rivers-card">
-            <img class="card-img" src="images/catalogo3.png" alt="merch3">
-            
-            
-            </div>
-            <div class="rivers-card">
-            <img class="card-img" src="images/catalogo4.jpg" alt="merch4">
-            
-            
-            </div>
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo5.jpg" alt="merch5">
-            
-            
-        </div>
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo6.jpg" alt="merch6">
-            
-            
-        </div>
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo7.jpg" alt="merch7">
-            
-            
-        </div>
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo8.jpg" alt="merch8">
-            
-            
-        </div>
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo9.jpg" alt="merch9">
-            
-            
-        </div>
-        <div class="rivers-card">
-            <img class="card-img" src="images/catalogo10.jpg" alt="merch10">
-            
-            
-        </div>
+        
+    </section>
 
         
     </main>
